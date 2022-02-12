@@ -1,37 +1,935 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="zxx">
 
-You can use the [editor on GitHub](https://github.com/pratikp9881/test1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+   <meta charset="utf-8">
+   <title>IT Folio</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <!-- tab icon -->
+   <link rel="icon" href="img/icon.ico" type="image/x-icon">
+   <!-- font awesome -->
+   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+   <!-- main css -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- responsive css -->
+   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   <!-- default color skin -->
+   <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
+   <!-- style switcher - for demo purposes only -->
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-1" href="css/skins/color-1.css">
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled>
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled>
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-4" href="css/skins/color-4.css" disabled>
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
+   <link rel="stylesheet" type="text/css" href="css/style-switcher.css">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body class="dark">
 
-### Markdown
+   <!-- preloader start -->
+   <div class="preloader">
+      <div class="box">
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+   </div>
+   <!-- preloader end -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   <!-- header start -->
+   <header class="header">
+      <div class="container">
+         <div class="row justify-content-between">
+            <div class="logo">
+               <a href="index.html"><img src="img/logo.PNG" alt="logo"></a>
+            </div>
+            <div class="hamburger-btn outer-shadow hover-in-shadow">
+               <span></span>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- header end -->
 
-```markdown
-Syntax highlighted code block
+   <!-- navigation menu start -->
+   <nav class="nav-menu">
+      <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+      <div class="nav-menu-inner">
+         <ul>
+            <li><a href="#home" class="link-item inner-shadow active">home</a></li>
+            <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
+            <li><a href="#services" class="link-item outer-shadow hover-in-shadow">services</a></li>
+            <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a></li>
+            <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">testimonial</a></li>
+            <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
+         </ul>
+      </div>
+      <!-- copyright text -->
+      <p class="copyright-text">&copy; 2021 ImpulsiveTalks</p>
+   </nav>
+   <div class="fade-out-effect">
+   </div>
+   <!-- navigation menu end -->
 
-# Header 1
-## Header 2
-### Header 3
+   <!-- home section start -->
+   <section class="home-section section active" id="home">
+      <!-- effect wrap start -->
+      <div class="effect-wrap">
+         <div class="effect effect-1">
+         </div>
+         <div class="effect effect-2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+         <div class="effect effect-3">
+         </div>
+         <div class="effect effect-4">
+         </div>
+         <div class="effect effect-5">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+      <!-- effect wrap end -->
+      <div class="container">
+         <div class="row full-screen align-items-center">
+            <div class="home-text">
+               <p>Hello</p>
+               <h2>I'm ImpulsiveTalks</h2>
+               <h1>Web Designer & Developer</h1>
+               <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
+            </div>
+            <div class="home-img">
+               <div class="img-box inner-shadow">
+                  <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- home section end -->
 
-- Bulleted
-- List
+   <!-- about section start -->
+   <section class="about-section section" id="about">
+      <div class="container">
+         <div class="row">
+            <div class="section-title">
+               <h2 data-heading="main info">About me</h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="about-img">
+               <div class="img-box inner-shadow">
+                  <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
+               </div>
+               <!-- social links start -->
+               <div class="social-links">
+                  <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+               <!-- social links end -->
+            </div>
+            <div class="about-info">
+               <p><span>Hi! My name is ImpulsiveTalks. I am a Web Developer.</span> Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+               <p> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum</p>
+               <a href="#" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
+               <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+            </div>
+         </div>
+         <!-- about tabs start -->
+         <div class="row">
+            <div class="about-tabs">
+               <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
+               <span class="tab-item" data-target=".experience">experience</span>
+               <span class="tab-item" data-target=".education">education</span>
+            </div>
+         </div>
+         <!-- about tabs end -->
 
-1. Numbered
-2. List
+         <!-- skills start -->
+         <div class="row">
+            <div class="skills tab-content active">
+               <div class="row">
+                  <!-- skill item start -->
+                  <div class="skill-item">
+                     <p>Html</p>
+                     <div class="progress inner-shadow">
+                        <div class="progress-bar" style="width: calc(90% - 14px)">
+                           <span>90%</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- skill item end -->
+                  <!-- skill item start -->
+                  <div class="skill-item">
+                     <p>javascript</p>
+                     <div class="progress inner-shadow">
+                        <div class="progress-bar" style="width: calc(60% - 14px)">
+                           <span>60%</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- skill item end -->
+                  <!-- skill item start -->
+                  <div class="skill-item">
+                     <p>bootstrap</p>
+                     <div class="progress inner-shadow">
+                        <div class="progress-bar" style="width: calc(70% - 14px)">
+                           <span>70%</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- skill item end -->
+                  <!-- skill item start -->
+                  <div class="skill-item">
+                     <p>jquery</p>
+                     <div class="progress inner-shadow">
+                        <div class="progress-bar" style="width: calc(80% - 14px)">
+                           <span>80%</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- skill item end -->
+                  <!-- skill item start -->
+                  <div class="skill-item">
+                     <p>css</p>
+                     <div class="progress inner-shadow">
+                        <div class="progress-bar" style="width: calc(90% - 14px)">
+                           <span>90%</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- skill item end -->
+                  <!-- skill item start -->
+                  <div class="skill-item">
+                     <p>php</p>
+                     <div class="progress inner-shadow">
+                        <div class="progress-bar" style="width: calc(60% - 14px)">
+                           <span>60%</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- skill item end -->
+               </div>
+            </div>
+         </div>
+         <!-- skills end -->
+         <!-- experience start -->
+         <div class="row">
+            <div class="experience tab-content">
+               <div class="row">
+                  <div class="timeline">
+                     <div class="row">
+                        <!-- timeline item start -->
+                        <div class="timeline-item">
+                           <div class="timeline-item-inner outer-shadow">
+                              <i class="fas fa-briefcase icon"></i>
+                              <span>Sep, 2018 - Present</span>
+                              <h3>full stack developer</h3>
+                              <h4>Company name, india</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut labore et dolore magna aliqua.</p>
+                           </div>
+                        </div>
+                        <!-- timeline item end -->
+                        <!-- timeline item start -->
+                        <div class="timeline-item">
+                           <div class="timeline-item-inner outer-shadow">
+                              <i class="fas fa-briefcase icon"></i>
+                              <span>Sep, 2016 - Oct, 2017</span>
+                              <h3>web designer</h3>
+                              <h4>Company name, india</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut labore et dolore magna aliqua.</p>
+                           </div>
+                        </div>
+                        <!-- timeline item end -->
+                        <!-- timeline item start -->
+                        <div class="timeline-item">
+                           <div class="timeline-item-inner outer-shadow">
+                              <i class="fas fa-briefcase icon"></i>
+                              <span>Sep, 2014 - Jun, 2016</span>
+                              <h3>web designer</h3>
+                              <h4>Company name, india</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut labore et dolore magna aliqua.</p>
+                           </div>
+                        </div>
+                        <!-- timeline item end -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- experience end -->
 
-**Bold** and _Italic_ and `Code` text
+         <!-- education start -->
+         <div class="row">
+            <div class="education tab-content">
+               <div class="row">
+                  <div class="timeline">
+                     <div class="row">
+                        <!-- timeline item start -->
+                        <div class="timeline-item">
+                           <div class="timeline-item-inner outer-shadow">
+                              <i class="fas fa-graduation-cap icon"></i>
+                              <span>2019 - 2021</span>
+                              <h3>University of Internet</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut labore et dolore magna aliqua.</p>
+                           </div>
+                        </div>
+                        <!-- timeline item end -->
+                        <!-- timeline item start -->
+                        <div class="timeline-item">
+                           <div class="timeline-item-inner outer-shadow">
+                              <i class="fas fa-graduation-cap icon"></i>
+                              <span>2019 - 2021</span>
+                              <h3>University of Internet</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut labore et dolore magna aliqua.</p>
+                           </div>
+                        </div>
+                        <!-- timeline item end -->
+                        <!-- timeline item start -->
+                        <div class="timeline-item">
+                           <div class="timeline-item-inner outer-shadow">
+                              <i class="fas fa-graduation-cap icon"></i>
+                              <span>2019 - 2021</span>
+                              <h3>University of Internet</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut labore et dolore magna aliqua.</p>
+                           </div>
+                        </div>
+                        <!-- timeline item end -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- education end -->
+      </div>
+   </section>
+   <!-- about section end -->
 
-[Link](url) and ![Image](src)
-```
+   <!-- service section start -->
+   <section class="service-section section" id="services">
+      <div class="container">
+         <div class="row">
+            <div class="section-title">
+               <h2 data-heading="Services">What i do</h2>
+            </div>
+         </div>
+         <div class="row">
+            <!-- service item start -->
+            <div class="service-item">
+               <div class="service-item-inner outer-shadow">
+                  <div class="icon inner-shadow">
+                     <i class="fas fa-mobile-alt"></i>
+                  </div>
+                  <h3>Responsive design</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+               </div>
+            </div>
+            <!-- service item end -->
+            <!-- service item start -->
+            <div class="service-item">
+               <div class="service-item-inner outer-shadow">
+                  <div class="icon inner-shadow">
+                     <i class="fas fa-laptop-code"></i>
+                  </div>
+                  <h3>web design</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+               </div>
+            </div>
+            <!-- service item end -->
+            <!-- service item start -->
+            <div class="service-item">
+               <div class="service-item-inner outer-shadow">
+                  <div class="icon inner-shadow">
+                     <i class="fas fa-palette"></i>
+                  </div>
+                  <h3>graphic design</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+               </div>
+            </div>
+            <!-- service item end -->
+            <!-- service item start -->
+            <div class="service-item">
+               <div class="service-item-inner outer-shadow">
+                  <div class="icon inner-shadow">
+                     <i class="fas fa-code"></i>
+                  </div>
+                  <h3>clean code</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+               </div>
+            </div>
+            <!-- service item end -->
+            <!-- service item start -->
+            <div class="service-item">
+               <div class="service-item-inner outer-shadow">
+                  <div class="icon inner-shadow">
+                     <i class="fas fa-search"></i>
+                  </div>
+                  <h3>Python Programming</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+               </div>
+            </div>
+            <!-- service item end -->
+            <!-- service item start -->
+            <div class="service-item">
+               <div class="service-item-inner outer-shadow">
+                  <div class="icon inner-shadow">
+                     <i class="fas fa-bullhorn"></i>
+                  </div>
+                  <h3>Great support</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+               </div>
+            </div>
+            <!-- service item end -->
+         </div>
+      </div>
+   </section>
+   <!-- service section end -->
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+   <!-- portfolio section start -->
+   <section class="portfolio-section section" id="portfolio">
+      <div class="container">
+         <div class="row">
+            <div class="section-title">
+               <h2 data-heading="portfolio">Latest Works</h2>
+            </div>
+         </div>
+         <!-- portfolio filter start -->
+         <div class="row">
+            <div class="portfolio-filter">
+               <span class="filter-item outer-shadow active" data-target="all">all</span>
+               <span class="filter-item" data-target="category-1">category-1</span>
+               <span class="filter-item" data-target="category-2">category-2</span>
+               <span class="filter-item" data-target="category-3">category-3</span>
+               <span class="filter-item" data-target="category-4">category-4</span>
+            </div>
+         </div>
+         <!-- portfolio filter end -->
 
-### Jekyll Themes
+         <!-- portfolio items start -->
+         <div class="row portfolio-items">
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="category-2">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-1.jpg" alt="portfolio" data-screenshots="img/portfolio/large/project-1/1.jpg,
+                    img/portfolio/large/project-1/2.jpg,
+                    img/portfolio/large/project-1/3.jpg,
+                    img/portfolio/large/project-1/4.jpg,
+                    img/portfolio/large/project-1/5.jpg,
+                    img/portfolio/large/project-1/6.jpg">
+                     <!-- view project btn -->
+                     <span class="view-project">view project</span>
+                  </div>
+                  <p class="portfolio-item-title">personal portfolio</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Project Brief:</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse</p>
+                        </div>
+                        <div class="info">
+                           <h3>Project info</h3>
+                           <ul>
+                              <li>Date - <span>2021</span></li>
+                              <li>Client - <span>xyz</span></li>
+                              <li>Tools - <span>html, css, javascript</span></li>
+                              <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
+            <!-- portfolio item end -->
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="category-1">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-2.jpg" alt="portfolio" data-screenshots="img/portfolio/large/project-2/1.jpg,
+                    img/portfolio/large/project-2/2.jpg">
+                     <!-- view project btn -->
+                     <span class="view-project">view project</span>
+                  </div>
+                  <p class="portfolio-item-title">wedding couple</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Project Brief:</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse</p>
+                        </div>
+                        <div class="info">
+                           <h3>Project info</h3>
+                           <ul>
+                              <li>Date - <span>2021</span></li>
+                              <li>Client - <span>xyz</span></li>
+                              <li>Tools - <span>html, css, javascript</span></li>
+                              <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
+            <!-- portfolio item end -->
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="category-1">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-3.jpg" alt="portfolio" data-screenshots="img/portfolio/large/project-3/1.jpg,
+                    img/portfolio/large/project-3/2.jpg,
+                    img/portfolio/large/project-3/3.jpg,
+                    img/portfolio/large/project-3/4.jpg,
+                    img/portfolio/large/project-3/5.jpg">
+                     <!-- view project btn -->
+                     <span class="view-project">view project</span>
+                  </div>
+                  <p class="portfolio-item-title">product landing page</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Project Brief:</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse</p>
+                        </div>
+                        <div class="info">
+                           <h3>Project info</h3>
+                           <ul>
+                              <li>Date - <span>2021</span></li>
+                              <li>Client - <span>xyz</span></li>
+                              <li>Tools - <span>html, css, javascript</span></li>
+                              <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
+            <!-- portfolio item end -->
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="category-2">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-4.jpg" alt="portfolio"
+                        data-screenshots="img/portfolio/large/project-4/1.jpg">
+                     <!-- view project btn -->
+                     <span class="view-project">view project</span>
+                  </div>
+                  <p class="portfolio-item-title">personal portfolio</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Project Brief:</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse</p>
+                        </div>
+                        <div class="info">
+                           <h3>Project info</h3>
+                           <ul>
+                              <li>Date - <span>2021</span></li>
+                              <li>Client - <span>xyz</span></li>
+                              <li>Tools - <span>html, css, javascript</span></li>
+                              <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
+            <!-- portfolio item end -->
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="category-3">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-5.jpg" alt="portfolio"
+                        data-screenshots="img/portfolio/large/project-5/1.jpg">
+                     <!-- view project btn -->
+                     <span class="view-project">view project</span>
+                  </div>
+                  <p class="portfolio-item-title">fitness & gym</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Project Brief:</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse</p>
+                        </div>
+                        <div class="info">
+                           <h3>Project info</h3>
+                           <ul>
+                              <li>Date - <span>2021</span></li>
+                              <li>Client - <span>xyz</span></li>
+                              <li>Tools - <span>html, css, javascript</span></li>
+                              <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
+            <!-- portfolio item end -->
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="category-4">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-6.jpg" alt="portfolio" data-screenshots="img/portfolio/large/project-6/1.jpg,
+                    img/portfolio/large/project-6/2.jpg,
+                    img/portfolio/large/project-6/3.jpg">
+                     <!-- view project btn -->
+                     <span class="view-project">view project</span>
+                  </div>
+                  <p class="portfolio-item-title">quiz application</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Project Brief:</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse</p>
+                        </div>
+                        <div class="info">
+                           <h3>Project info</h3>
+                           <ul>
+                              <li>Date - <span>2021</span></li>
+                              <li>Client - <span>xyz</span></li>
+                              <li>Tools - <span>html, css, javascript</span></li>
+                              <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
+            <!-- portfolio item end -->
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="category-2">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-7.jpg" alt="portfolio" data-screenshots="img/portfolio/large/project-7/1.jpg,
+                    img/portfolio/large/project-7/2.jpg">
+                     <!-- view project btn -->
+                     <span class="view-project">view project</span>
+                  </div>
+                  <p class="portfolio-item-title">xyz app</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Project Brief:</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse</p>
+                        </div>
+                        <div class="info">
+                           <h3>Project info</h3>
+                           <ul>
+                              <li>Date - <span>2021</span></li>
+                              <li>Client - <span>xyz</span></li>
+                              <li>Tools - <span>html, css, javascript</span></li>
+                              <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
+            <!-- portfolio item end -->
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="category-3">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-8.jpg" alt="portfolio" data-screenshots="img/portfolio/large/project-8/1.jpg,
+                    img/portfolio/large/project-8/2.jpg">
+                     <!-- view project btn -->
+                     <span class="view-project">view project</span>
+                  </div>
+                  <p class="portfolio-item-title">personal portfolio</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Project Brief:</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                              reprehenderit in voluptate velit esse</p>
+                        </div>
+                        <div class="info">
+                           <h3>Project info</h3>
+                           <ul>
+                              <li>Date - <span>2021</span></li>
+                              <li>Client - <span>xyz</span></li>
+                              <li>Tools - <span>html, css, javascript</span></li>
+                              <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
+            <!-- portfolio item end -->
+         </div>
+         <!-- portfolio items end -->
+      </div>
+   </section>
+   <!-- portfolio section end -->
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pratikp9881/test1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+   <!-- testimonial section start -->
+   <section class="testimonial-section section" id="testimonial">
+      <div class="container">
+         <div class="row">
+            <div class="section-title">
+               <h2 data-heading="testimonial">Client Speak</h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="testi-box">
+               <div class="testi-slider outer-shadow">
+                  <div class="testi-slider-container">
+                     <!-- testi item start -->
+                     <div class="testi-item active">
+                        <i class="fas fa-quote-left left"></i>
+                        <i class="fas fa-quote-right right"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           labore et dolore magna aliqua</p>
+                        <img src="img/testimonial/1.png" alt="testimonial">
+                        <span>Raj Himachal</span>
+                     </div>
+                     <!-- testi item end -->
+                     <!-- testi item start -->
+                     <div class="testi-item">
+                        <i class="fas fa-quote-left left"></i>
+                        <i class="fas fa-quote-right right"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           labore et dolore magna aliqua</p>
+                        <img src="img/testimonial/1.png" alt="testimonial">
+                        <span>soshiv upreti</span>
+                     </div>
+                     <!-- testi item end -->
+                     <!-- testi item start -->
+                     <div class="testi-item">
+                        <i class="fas fa-quote-left left"></i>
+                        <i class="fas fa-quote-right right"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                           labore et dolore magna aliqua</p>
+                        <img src="img/testimonial/1.png" alt="testimonial">
+                        <span>gamer king</span>
+                     </div>
+                     <!-- testi item end -->
+                  </div>
+               </div>
+               <div class="testi-slider-nav">
+                  <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left"></i></span>
+                  <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right"></i></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- testimonial section end -->
 
-### Support or Contact
+   <!-- contact section start -->
+   <section class="contact-section section" id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="section-title">
+               <h2 data-heading="contact">Get In Touch</h2>
+            </div>
+         </div>
+         <div class="row">
+            <!-- contact item start -->
+            <div class="contact-item">
+               <div class="contact-item-inner outer-shadow">
+                  <i class="fas fa-phone"></i>
+                  <span>Phone</span>
+                  <p>91 99998 13557</p>
+               </div>
+            </div>
+            <!-- contact item end -->
+            <!-- contact item start -->
+            <div class="contact-item">
+               <div class="contact-item-inner outer-shadow">
+                  <i class="fas fa-envelope"></i>
+                  <span>Email</span>
+                  <p>impulsivetalks@gmail.com</p>
+               </div>
+            </div>
+            <!-- contact item end -->
+            <!-- contact item start -->
+            <div class="contact-item">
+               <div class="contact-item-inner outer-shadow">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Address</span>
+                  <p>Delhi, India</p>
+               </div>
+            </div>
+            <!-- contact item end -->
+         </div>
+         <div class="row">
+            <div class="contact-form">
+               <form>
+                  <div class="row">
+                     <div class="w-50">
+                        <div class="input-group outer-shadow hover-in-shadow">
+                           <input type="text" placeholder="Name" class="input-control">
+                        </div>
+                        <div class="input-group outer-shadow hover-in-shadow">
+                           <input type="text" placeholder="Email" class="input-control">
+                        </div>
+                        <div class="input-group outer-shadow hover-in-shadow">
+                           <input type="text" placeholder="Subject" class="input-control">
+                        </div>
+                     </div>
+                     <div class="w-50">
+                        <div class="input-group outer-shadow hover-in-shadow">
+                           <textarea class="input-control" placeholder="Message"></textarea>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="submit-btn">
+                        <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- contact section end -->
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+   <!-- portfolio popup start -->
+   <div class="pp portfolio-popup">
+      <div class="pp-details">
+         <div class="pp-details-inner">
+            <div class="pp-title">
+               <h2></h2>
+               <p>Category - <span class="pp-project-category"></span></p>
+            </div>
+            <div class="pp-project-details">
+            </div>
+         </div>
+      </div>
+
+      <div class="separator"></div>
+
+      <div class="pp-main">
+         <div class="pp-main-inner">
+            <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details <i class="fas fa-plus"></i>
+            </div>
+            <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+            <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
+            <div class="pp-counter"></div>
+         </div>
+         <div class="pp-loader">
+            <div></div>
+         </div>
+         <!-- pp navigation -->
+         <div class="pp-prev"><i class="fas fa-play"></i></div>
+         <div class="pp-next"><i class="fas fa-play"></i></div>
+      </div>
+   </div>
+   <!-- portfolio popup end -->
+
+   <!-- style switcher start - for demo purposes only -->
+   <div class="style-switcher outer-shadow">
+      <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+         <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon outer-shadow hover-in-shadow">
+         <i class="fas"></i>
+      </div>
+
+      <h4>Theme Colors</h4>
+      <div class="colors">
+         <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+         <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+         <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+         <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+         <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+   </div>
+   <!-- style switcher end -->
+
+
+   <!-- main js -->
+   <script src="js/main.js"></script>
+   <!-- style switcher js -->
+   <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
